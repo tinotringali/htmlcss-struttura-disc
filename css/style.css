@@ -22,6 +22,12 @@ ________
     min-height: 40px;
 }
 
+.debug .col-pink{
+    background-color: #ee82ee;
+    border-style: dashed;
+}
+
+
 
 
 /*
@@ -43,6 +49,7 @@ header{
 
 .logo, .login{
     width: 240px;
+    line-height: 30px;
 }
 
 .login{
@@ -53,11 +60,25 @@ ul{
     display: flex;
     width: 720px;
     list-style: none;
+    line-height: 30px;
+}
+
+li{
+margin: auto;
 }
 
 .sfondo-header{
+    display: flex;
+    align-items: center;
+    justify-content:center;
     background-color: #00008b;
     min-height: 500px;
     width: 100%;
+}
+
+.col-pink{
+    height: 400px;
+    width: 900px;
+
 }
 

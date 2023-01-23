@@ -5,7 +5,7 @@ ________
 */
 
 *{
-        margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -92,15 +92,14 @@ header{
 
 ul{
     display: flex;
+    justify-content: space-between;
     width: 720px;
     list-style: none;
     line-height: 30px;
     min-height: 40px;
 }
 
-li{
-margin: auto;
-}
+
 
 .sfondo-header{
     display: flex;
@@ -198,11 +197,11 @@ footer{
     justify-content:space-between;
     min-height: 80px;
     width: 1080px;
-    align-items: flex-end;
+    
 }
 
 .logo-2, .bottone{
     line-height: 100px;
-    min-height:45px ;
+    min-height:25px ;
     width: 60px;
 }

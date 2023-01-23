@@ -1,0 +1,63 @@
+/*
+________
+Reset 
+________
+*/
+
+*{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+________
+debug
+________
+*/
+
+.debug .logo, ul, .login{
+    background-color: #daa520;
+    border-style: dashed;
+    min-height: 40px;
+}
+
+
+
+/*
+________
+header
+________
+*/
+header{
+    min-height: 80px;
+    width: 100%;
+    background-color: #add8e6;
+}
+
+.row-header{
+    display: flex;
+    justify-content:center;
+    padding: 20px 0;
+}
+
+.logo, .login{
+    width: 240px;
+}
+
+.login{
+  text-align: right;
+}
+
+ul{
+    display: flex;
+    width: 720px;
+    list-style: none;
+}
+
+.sfondo-header{
+    background-color: #00008b;
+    min-height: 500px;
+    width: 100%;
+}
+

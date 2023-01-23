@@ -19,16 +19,49 @@ ________
 .debug .logo, ul, .login{
     background-color: #daa520;
     border-style: dashed;
-    min-height: 40px;
+
 }
 
-.debug .col-pink{
+.debug .col-purple{
     background-color: #ee82ee;
     border-style: dashed;
 }
 
+.debug .col-blue{
+    background-color: #1e90ff;
+    border-style: dashed;
+    
+}
+
+.debug .col-pink{
+    background-color: #ffc0cb;
+    border-style: dashed;
+}
+
+.debug .col-green{
+    background-color: #228b22;
+    border-style: dashed;
+}
+
+.debug .col-1{
+    background-color: #f08080;
+    border-style: dashed;
+}
 
 
+.debug .col-2,.col-3,.col-4,.col-5{
+   background-color: #20b2aa;
+   border-style: dashed;
+}
+
+.debug .final-footer{
+    background-color: #7fffd4;
+}
+
+.logo-2, .bottone{
+    background-color:#ffb6c1 ;
+    border-style: dashed;
+}
 
 /*
 ________
@@ -50,6 +83,7 @@ header{
 .logo, .login{
     width: 240px;
     line-height: 30px;
+    min-height: 40px;
 }
 
 .login{
@@ -61,6 +95,7 @@ ul{
     width: 720px;
     list-style: none;
     line-height: 30px;
+    min-height: 40px;
 }
 
 li{
@@ -76,9 +111,98 @@ margin: auto;
     width: 100%;
 }
 
-.col-pink{
-    height: 400px;
+.col-purple{
+    min-height: 400px;
     width: 900px;
 
 }
 
+.sfondo-pari, .sfondo-dispari{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 600px;
+    width: 100%;
+}
+
+.sfondo-dispari{
+    background-color:#d3d3d3;
+}
+
+.col-blue{
+    min-height: 500px;
+    width: 720px;
+
+}
+
+.col-pink{
+    min-height: 500px;
+    width: 480px;
+
+}
+
+
+.sfondo-main{
+    background-color:#d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 100%;
+}
+
+.col-green{
+    min-height: 900px;
+    width: 1200px;
+}
+
+/*
+________
+footer
+________
+*/
+footer{
+    background-color: #23272a;
+    height: 740px;
+    width: 100%;
+}
+
+.sfondo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.column-footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1200px;
+   height: 580px;
+}
+.col-1{   
+    min-height: 570px;
+    width: 30%;
+}
+
+
+.col-2,.col-3,.col-4,.col-5{
+    min-height: 570px;
+    width: 15%;
+}
+
+.final-footer{
+    display: flex;
+    justify-content:space-between;
+    min-height: 80px;
+    width: 1080px;
+    align-items: flex-end;
+}
+
+.logo-2, .bottone{
+    line-height: 100px;
+    min-height:45px ;
+    width: 60px;
+}
